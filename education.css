@@ -1,0 +1,39 @@
+
+body{
+    background-color: bisque;
+}
+#education{
+    margin-top: 1px;
+    margin-left: 280px;
+}
+h2{
+    font-variant: small-caps;
+}
+#education #edu{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 800px;
+}
+#cou1{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 800px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+    #education{
+        margin-left: 10px;
+    } 
+    #education #edu, #cou1, #cou2{
+        width: 95%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+}
