@@ -1,2 +1,2 @@
 # Personal-Portfolio
-personal portfolio to check my skills and achievements
+personal portfolio representing my skills and achievements
